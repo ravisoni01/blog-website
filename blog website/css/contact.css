@@ -1,0 +1,82 @@
+.form-control{
+    height: 520px;
+    display: flex;
+    /* background-color: red; */
+}
+
+.form-control h1{
+    font-size: 60px;
+    font-family: var(--font1);
+    color: var(--font-color);
+    margin: 0 30px;
+}
+.form-control-left{
+    width: 45%;
+    /* background-color: blue; */
+}
+.form-input{
+    margin: 0 10px;
+    margin-left: 28px;
+}
+.form-box{
+    margin: 8px 0px;
+}
+.form-box input{
+    padding: 13px 25px;
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 80%;
+}
+.form-box input::placeholder{
+   font-size: 15px;
+}
+.form-box textarea::placeholder{
+   font-size: 15px;
+}
+.form-box textarea{
+    padding: 14px 25px;
+    width:80%;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+.form-control-right{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: red; */
+}
+.form-btn{
+    font-size: 16px;
+    padding: 3px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.contact-img{
+    /* border: 2px solid red; */
+    /* margin: 5px 107px; */
+}
+.contact-img img{
+    width: 560px;
+    /* height:400px; */
+}
+.icon{
+    display: flex;
+}
+.twitter{
+    width: 75px;
+}
+.instagram{
+    width: 75px;
+}
+.google{
+    width: 75px;
+}
+.facebook{
+    width: 75px;
+}
+.icon i{
+    cursor: pointer;
+}

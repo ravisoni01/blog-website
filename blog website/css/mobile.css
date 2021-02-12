@@ -1,0 +1,132 @@
+@media screen and (max-width:1200px){
+    .navigation {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo{
+        flex-direction: column;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+    }
+    span{
+        margin-bottom: 10px;
+    }
+    .search-input {
+       margin: 9px 0px;
+    }
+    .article {
+        padding: 0px 5px;
+        padding-bottom: 20px;
+    }
+    .home-h1{
+        font-size: 25px;
+    }
+    .paragraph-content {
+        font-size: 18px;
+    }
+    .article-content {
+        padding: 17px 11px;
+        font-size: 15px;
+    }
+   
+    .articles-section h1 {
+        padding: 0px 0px;
+        padding-top: 0px;
+    }
+
+    .form-control-right{
+        display: none;
+    }
+    .form-control-left{
+        width: 100%;
+    }
+    .more {
+        flex-direction: row;
+        width: 530px;
+        align-items: center;
+    }
+    
+    .row {
+        flex-direction: column;
+    }
+
+    .more-post {
+        height: auto
+    }
+    .post-heading{
+        padding: 15px 0;
+    }
+}
+@media screen and (max-width:660px){
+    .articles-section-head h1{
+        text-align: center;
+        font-size: 35px;
+        padding: 10px 0px;
+    }
+    .article{
+        display: flex;
+        flex-direction: column;
+    }
+    .article-img{
+        display: flex;
+        padding: 10px 0;
+        justify-content: center;
+    }
+    .article-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .article-content h1{
+        font-size: 25px;
+    }
+    nav ul li {
+        margin: 0 11px;
+        font-size: 23px;
+    }
+    .search{
+        padding-bottom: 15px;
+    }
+    .home-h1 {
+        font-size: 23px;
+        text-align: center;
+    }
+    .form-control h1 {
+        font-size: 42px;
+    }
+    .search-text{
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    .post-heading{
+        font-size: 14px;
+        justify-content: center;
+        display: flex;
+    }   
+    .more{
+        margin: auto;
+        width: auto;
+    }
+    .post-img {
+        height: auto;
+    }
+    .post-head {
+        display: flex;
+        justify-content: center;
+        padding: 0px 0px;
+        text-align: center;
+        margin: 12px 0px;
+    }
+    .post-head h1 {
+        font-size: 23px;
+    }
+    .post-paragraph p {
+        font-size: 13px;
+    }
+    .footer-p2 {
+        font-family: var(--font3);
+        font-size: 16px;
+    }
+}

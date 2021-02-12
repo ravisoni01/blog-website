@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: space-between;
+    color: var(--font-color);
+}
+
+
+.logo{
+    font-family: var(--font2);
+    margin: 12px 17px;
+    display: flex;
+    font-size: 20px;
+    /* flex-direction: row; */
+}
+
+nav ul{
+    font-family: var(--font1);
+    list-style: none;
+    display: flex;
+    margin: 0 60px;
+}
+nav ul li{
+    margin: 0 15px;
+    font-size: 24px;
+}
+
+nav ul li a{
+   text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:  #2a024e;
+    transition: all 0.1s ease-in;
+    /* color: rgb(235, 235, 235); */
+}
+
+.section{
+    /* background-color: var(--main-bg-color); */
+    /* height: 290px; */
+    background-size: cover;
+    position: relative;
+}
+.section::before{
+    content:"";
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(/image/bg.jpg);
+    z-index: -1;
+    background-size: cover;
+}
+
+.content-section{
+    color: var(--font-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    /* height: 230px;
+    padding-top: 24px; */
+    font-family: var(--font1);
+}
+.home-h1{
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+.paragraph-content{
+    /* padding: 0px 152px; */
+    text-align: center;
+    margin-bottom: 10px;
+    color: #0d0c40;
+    font-family: var(--font3);
+    font-size: 21px;
+}
+.content-btn{
+    margin-bottom: 15px;
+}
+.articles-section{
+    /* height: 1020px; */
+    background-color: var(--main-bg-color);
+    font-family: var(--font3);
+    color: var(--font-color);
+}
+
+.articles-section h1{
+    padding: 0px 10px;
+    padding-top: 10px;
+}
+
+.article{
+    display: flex;
+    padding: 39px 10px;
+    font-family: var(--font1);
+
+}
+
+.article img{
+    width: 230px;
+}
+
+.article-content{
+    padding: 30px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-bg-color);
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    color: var(--font-color);
+}
+.footer-p1{
+    font-family: var(--font2);
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+
+.footer-p2{
+    font-family: var(--font3);
+    font-size: 18px;
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto+Slab:wght@600&display=swap');
+:root{
+    --font1 : 'Baloo Bhai 2', cursive; 
+    --font2 : 'Potta One', cursive; 
+    --font3 : 'Roboto Slab', serif;
+    --main-bg-color:  rgb(235, 235, 235);
+    --font-color:  #3f0772;
+}
+
+.max-width{
+    width: 75vw;
+}
+.max-width2{
+    width: 60vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.my-2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.search-input{
+    padding: 6px 4px;
+    margin: 18px 0px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.btn{
+    padding: 0px 12px;
+    margin: 0px 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: var(--font1);
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: var(--font-color);
+    transition: all 0.3s ease-in;
+    color: rgb(235, 235, 235);
+}

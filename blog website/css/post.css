@@ -1,0 +1,39 @@
+.post-img{
+    height: 350px;
+    overflow: hidden;
+}
+.post-img img{
+    width: 100%;
+   
+}
+.post-head{
+    display: flex;
+    justify-content: center;
+    padding: 26px 0px;
+}
+.post-head h1{
+    font-size: 45px;
+    font-family: var(--font3);
+}
+.post-paragraph p{
+    font-size: 20px;
+    font-family: var(--font1);
+}
+.more-post{
+    background-color: white;
+    height:380px;
+}
+.row{
+    display: flex;
+}
+.more{
+    flex-direction: column;
+    width: 341px;
+    align-items: center;
+}
+.more h1{
+    font-size: 20px;
+}
+.post{
+    color: var(--font-color);
+}
